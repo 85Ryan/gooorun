@@ -120,7 +120,7 @@ const RunMap = ({
           type="line"
           paint={{
             'line-color': MAIN_COLOR,
-            'line-width': isBigMap ? 1 : 2,
+            'line-width': isBigMap ? 1 : 5,
             'line-dasharray': dash,
             'line-opacity': isSingleRun ? 1 : LINE_OPACITY,
             'line-blur': 1,

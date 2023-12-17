@@ -1,0 +1,39 @@
+@import '../../styles/variables.scss';
+
+.headerNav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 100%;
+  margin-top: 3rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.logoSVG {
+  fill: $nike;
+  height: 5rem;
+}
+
+.headerSlogan {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.appsWrapper {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.stravaSVG {
+  height: 1rem;
+  fill: $nike;
+  margin-right: 1rem;
+}
+
+.watchSVG {
+  height: 2rem;
+  fill: $nike;
+}

@@ -1,6 +1,6 @@
 // const
 const MAPBOX_TOKEN =
-  'pk.eyJ1IjoieWlob25nMDYxOCIsImEiOiJja2J3M28xbG4wYzl0MzJxZm0ya2Fua2p2In0.PNKfkeQwYuyGOTT_x9BJ4Q';
+  'pk.eyJ1IjoibHhsMnJ5YW4iLCJhIjoiY2xxOTVjN2l3MW5kcDJpcW1mNWZyaDdnaiJ9.pETWpQMo6xha9hQbGj8qHw';
 const MUNICIPALITY_CITIES_ARR = [
   '北京市',
   '上海市',
@@ -36,19 +36,19 @@ const ROAD_LABEL_DISPLAY = false;
 // IF you outside China please make sure IS_CHINESE = false
 const IS_CHINESE = true;
 const USE_ANIMATION_FOR_GRID = false;
-const CHINESE_INFO_MESSAGE = (yearLength: number, year: string): string => {
-  const yearStr = year === 'Total' ? '所有' : ` ${year} `;
-  return `我用 App 记录自己跑步 ${yearLength} 年了，下面列表展示的是${yearStr}的数据`;
+const CHINESE_INFO_MESSAGE = (yearLength: number): string => {
+  return `这是我坚持跑步的第 ${yearLength} 年...因为热爱，所以坚持...`;
 };
-const ENGLISH_INFO_MESSAGE = (yearLength: number, year: string): string =>
-  `Running Journey with ${yearLength} Years, the table shows year ${year} data`;
+// const ENGLISH_INFO_MESSAGE = (yearLength: number, year: string): string =>
+//   `Running Journey with ${yearLength} Years, the table shows year ${year} data`;
 
 // not support English for now
 const CHINESE_LOCATION_INFO_MESSAGE_FIRST =
   '我跑过了一些地方，希望随着时间推移，地图点亮的地方越来越多';
 const CHINESE_LOCATION_INFO_MESSAGE_SECOND = '不要停下来，不要停下奔跑的脚步';
 
-const INFO_MESSAGE = IS_CHINESE ? CHINESE_INFO_MESSAGE : ENGLISH_INFO_MESSAGE;
+// const INFO_MESSAGE = IS_CHINESE ? CHINESE_INFO_MESSAGE : ENGLISH_INFO_MESSAGE;
+const INFO_MESSAGE = CHINESE_INFO_MESSAGE;
 const FULL_MARATHON_RUN_TITLE = IS_CHINESE ? '全程马拉松' : 'Full Marathon';
 const HALF_MARATHON_RUN_TITLE = IS_CHINESE ? '半程马拉松' : 'Half Marathon';
 const MORNING_RUN_TITLE = IS_CHINESE ? '清晨跑步' : 'Morning Run';

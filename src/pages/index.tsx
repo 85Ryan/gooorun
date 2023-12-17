@@ -173,9 +173,6 @@ const Index = () => {
   return (
     <Layout>
       <div className="fl w-30-l">
-        <h1 className="f1 fw9 i">
-          <a href="/">{siteTitle}</a>
-        </h1>
         {(viewState.zoom ?? 0) <= 3 && IS_CHINESE ? (
           <LocationStat
             changeYear={changeYear}
