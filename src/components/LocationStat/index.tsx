@@ -28,7 +28,7 @@ const LocationStat = ({ changeYear, changeCity, changeTitle }: ILocationStatProp
         Yesterday you said tomorrow.
       </p>
     </section>
-    <hr color="red" />
+    <hr color="orangered" />
     <LocationSummary />
     <CitiesStat onClick={changeCity} />
     <PeriodStat onClick={changeTitle} />

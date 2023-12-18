@@ -13,6 +13,7 @@
 .runTable {
   width: 100%;
   font-variant: tabular-nums;
+  font-family: $font-mono;
   margin: 2rem 0 5rem 0;
 
   thead {
@@ -53,4 +54,5 @@
 
 .runDate {
   color: $light;
+  font-size: 14px;
 }

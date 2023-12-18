@@ -1,0 +1,27 @@
+@import './variables.scss';
+
+._runSVG_1918t_1 text {
+  fill: $nike !important;
+  font-family: $global-font-family !important;
+}
+
+._runSVG_1918t_1 text:first-of-type {
+  font-size: 10px !important;
+}
+
+._runSVG_1918t_1 text[dominant-baseline="hanging"] {
+  font-weight: bold !important;
+}
+
+@for $i from 2 through 4 {
+  ._runSVG_1918t_1 text:nth-of-type(#{$i}) {
+    font-weight: bold !important;
+  }
+}
+
+@for $i from 5 through 10 {
+  ._runSVG_1918t_1 text:nth-of-type(#{$i}) {
+    font-size: .18rem !important;
+    letter-spacing: -0.02em;
+  }
+}
