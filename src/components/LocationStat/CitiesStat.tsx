@@ -21,7 +21,7 @@ const CitiesStat = ({ onClick }: { onClick: (_city: string) => void }) => {
           />
         ))}
       </section>
-      <hr color="orangered" />
+      <hr color="#FC4C02" />
     </div>
   );
 };

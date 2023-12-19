@@ -25,10 +25,10 @@ const LocationStat = ({ changeYear, changeCity, changeTitle }: ILocationStatProp
         .
         <br />
         <br />
-        Yesterday you said tomorrow.
+        <span style={{ fontSize: '2rem', fontWeight: 700, letterSpacing: 5 }}>YESTERDAY<br />YOU SAID<br />TOMORROW</span>
       </p>
     </section>
-    <hr color="orangered" />
+    <hr color="#FC4C02" />
     <LocationSummary />
     <CitiesStat onClick={changeCity} />
     <PeriodStat onClick={changeTitle} />

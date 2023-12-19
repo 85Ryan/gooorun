@@ -23,8 +23,10 @@ const Header = () => {
           <p>{INFO_MESSAGE(years.length)}</p>
         </div>
         <div className={styles.appsWrapper}>
-          <StravaSvg className={styles.stravaSVG} />
-          <WatchSvg className={styles.watchSVG} />
+          <a href="https://developers.strava.com/" rel="noopener noreferrer" target="_blank">
+            <picture><StravaSvg className={styles.stravaSVG} /></picture>
+          </a>
+          <picture><WatchSvg className={styles.watchSVG} /></picture>
         </div>
       </nav>
     </>

@@ -75,7 +75,7 @@ const YearStat = ({ year, onClick }: { year: string, onClick: (_year: string) =>
           <YearSVG className={styles.yearSVG} />
         </React.Suspense>
       )}
-      <hr color="orangered" />
+      <hr color="#FC4C02" />
     </div>
   );
 };
