@@ -1,6 +1,6 @@
-// const
-// const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
-const MAPBOX_TOKEN = 'pk.eyJ1IjoibHhsMnJ5YW4iLCJhIjoiY2xxOTVjN2l3MW5kcDJpcW1mNWZyaDdnaiJ9.pETWpQMo6xha9hQbGj8qHw';
+
+const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
+// const MAPBOX_TOKEN = 'pk.eyJ1IjoibHhsMnJ5YW4iLCJhIjoiY2xxOTVjN2l3MW5kcDJpcW1mNWZyaDdnaiJ9.pETWpQMo6xha9hQbGj8qHw';
 const MUNICIPALITY_CITIES_ARR = [
   '北京市',
   '上海市',
