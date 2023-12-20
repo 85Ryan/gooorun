@@ -11,8 +11,8 @@ interface ISiteMetadataResult {
 
 const data: ISiteMetadataResult = {
   siteTitle: 'GoooRun...',
-  siteUrl: 'https://85ryan.github.io/gooorun',
-  logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU',
+  siteUrl: 'https://gooo.run/',
+  logo: '',
   description: 'My Running Records',
   navLinks: [],
 };
