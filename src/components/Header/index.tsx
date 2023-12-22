@@ -7,6 +7,7 @@ import { INFO_MESSAGE } from '@/utils/const';
 import { ReactComponent as LogoSvg } from '@assets/gooorun_logo.svg';
 import { ReactComponent as StravaSvg } from '@assets/strava.svg';
 import { ReactComponent as WatchSvg } from '@assets/watch.svg';
+import useSiteMetadata from '@/hooks/useSiteMetadata';
 
 const Header = () => {
   // const { siteUrl } = useSiteMetadata();
