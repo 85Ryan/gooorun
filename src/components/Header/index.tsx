@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import React from 'react';
+// import React from 'react';
 // import useSiteMetadata from '@/hooks/useSiteMetadata';
 import useActivities from '@/hooks/useActivities';
 import styles from './style.module.scss';
@@ -7,7 +7,6 @@ import { INFO_MESSAGE } from '@/utils/const';
 import { ReactComponent as LogoSvg } from '@assets/gooorun_logo.svg';
 import { ReactComponent as StravaSvg } from '@assets/strava.svg';
 import { ReactComponent as WatchSvg } from '@assets/watch.svg';
-import useSiteMetadata from '@/hooks/useSiteMetadata';
 
 const Header = () => {
   // const { siteUrl } = useSiteMetadata();
