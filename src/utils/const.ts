@@ -1,6 +1,9 @@
 
-const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
-// const MAPBOX_TOKEN = 'pk.eyJ1IjoibHhsMnJ5YW4iLCJhIjoiY2xxOTVjN2l3MW5kcDJpcW1mNWZyaDdnaiJ9.pETWpQMo6xha9hQbGj8qHw';
+const VITE_MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
+// const MAPBOX_TOKEN = 'pk.eyJ1IjoieWlob25nMDYxOCIsImEiOiJja2J3M28xbG4wYzl0MzJxZm0ya2Fua2p2In0.PNKfkeQwYuyGOTT_x9BJ4Q';
+// 如果未设置环境变量则使用默认 TOKEN
+const MAPBOX_TOKEN = VITE_MAPBOX_TOKEN ? VITE_MAPBOX_TOKEN : 'pk.eyJ1IjoieWlob25nMDYxOCIsImEiOiJja2J3M28xbG4wYzl0MzJxZm0ya2Fua2p2In0.PNKfkeQwYuyGOTT_x9BJ4Q';
+
 const MUNICIPALITY_CITIES_ARR = [
   '北京市',
   '上海市',
