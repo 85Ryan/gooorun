@@ -27,7 +27,7 @@ const RunMarker = ({
       >
         <div
           style={{
-            transform: `translate(${-size / 2}px,${-size}px)`,
+            transform: `translate(${size}px, ${-size}px)`,
             maxWidth: '25px',
           }}
         >
@@ -37,7 +37,7 @@ const RunMarker = ({
       <Marker key="maker_end" longitude={endLon} latitude={endLat}>
         <div
           style={{
-            transform: `translate(${-size / 2}px,${-size}px)`,
+            transform: `translate(0, ${-size}px)`,
             maxWidth: '25px',
           }}
         >
