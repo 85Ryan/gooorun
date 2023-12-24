@@ -28,7 +28,7 @@ const MAP_LAYER_LIST = [
 ];
 
 const USE_GOOGLE_ANALYTICS = true;
-const GOOGLE_ANALYTICS_TRACKING_ID = 'GTM-WDN3LTB5';
+const GOOGLE_ANALYTICS_TRACKING_ID = 'G-JPRJ7E638G';
 
 // styling: set to `true` if you want dash-line route
 const USE_DASH_LINE = true;
