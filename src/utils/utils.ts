@@ -236,7 +236,7 @@ const getBoundsForGeoData = (
   }).fitBounds(cornersLongLat, { padding: 200 });
   let { longitude, latitude, zoom } = viewState;
   if (features.length > 1) {
-    zoom = 13.5;
+    zoom = 14;
   }
   return { longitude, latitude, zoom };
 };
